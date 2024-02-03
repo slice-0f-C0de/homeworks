@@ -1,0 +1,43 @@
+.button {
+    padding: 5px 24px;
+    border-radius: 3px;
+}
+
+.disabled {
+    background: #343434;
+    opacity: 50%;
+}
+
+.secondary {
+    background: #343434;
+}
+
+.default {
+    background: #0066CC;
+}
+
+.red {
+    background: #CC1439;
+}
+
+.default:hover {
+}
+
+.red:hover {
+}
+
+.secondary:hover {
+}
+
+
+.default:active {
+}
+
+.secondary:active {
+}
+
+.red:active {
+}
+
+.button:disabled {
+}
