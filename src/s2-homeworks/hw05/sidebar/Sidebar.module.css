@@ -1,9 +1,23 @@
 .sidebar {
-}
+    z-index: 20;
+    position: fixed;
+    transition: 0.2s ease-in;
 
+    height: 100vh;
+    width: 317px;
+    left: -317px;
+    top: 0;
+
+    background: #fff;
+}
 .sidebar.open {
-}
+    position: fixed;
+    transition: 0.2s ease-out;
 
+    left: 0;
+    box-shadow: 0 10px 40px rgba(29, 33, 38, 0.13),
+    0 1px 2px rgba(29, 33, 38, 0.1);
+}
 .background {
 }
 
